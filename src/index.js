@@ -7,10 +7,10 @@ import "./templates.js";
 function App() {
   let textInput = React.createRef();
 
-  function Comment(name_index) {
+  function Comment() {
     var dyn = document.getElementById("right-section");
     var child = dyn.lastElementChild;
-    var commsec = document.createElement("comment-section");
+    var commsec;
     var nombreNodo;
     var comment;
     if (child != null) {
@@ -24,14 +24,28 @@ function App() {
           dyn.removeChild(child);
           child = dyn.lastElementChild;
         }
+        commsec = document.createElement("comment-section");
         dyn.appendChild(commsec);
         comment = document.getElementById("barra");
         comment.innerHTML = nombreNodo.innerHTML + " &gt Comentario";
+        document
+          .getElementById("save-button")
+          .addEventListener("click", Confirmation, false);
+        document
+          .getElementById("cancel-button")
+          .addEventListener("click", CancelComment, false);
       }
     } else {
+      commsec = document.createElement("comment-section");
       dyn.appendChild(commsec);
       comment = document.getElementById("barra");
       comment.innerHTML = nombreNodo.innerHTML + " &gt Comentario";
+      document
+        .getElementById("save-button")
+        .addEventListener("click", Confirmation, false);
+      document
+        .getElementById("cancel-button")
+        .addEventListener("click", CancelComment, false);
     }
   }
 
@@ -145,7 +159,7 @@ function App() {
                 {" "}
                 Victor Morales
               </p>
-              <comment-icon onClick={Comment} />
+              <comment-icon />
               <evaluate-icon onClick={Evaluate} />
               <read-icon onClick={Read} />
             </div>
@@ -164,11 +178,12 @@ function App() {
                 {" "}
                 Andres Wulff
               </p>
-              <comment-icon onClick={Comment} />
+              <comment-icon />
               <evaluate-icon onClick={Evaluate} />
               <read-icon onClick={Read} />
             </div>
           </div>
+          <p display="none" onClick={Confirmation} />
         </div>
 
         <div class="float-child-right" id="right-section" />
@@ -180,4 +195,3 @@ function App() {
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(<App />, rootElement);
-
