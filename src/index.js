@@ -12,13 +12,7 @@ function App() {
     var child = dyn.lastElementChild;
     var commsec = document.createElement("comment-section");
     var nombreNodo;
-    if (name_index === 1) {
-      nombreNodo = document.getElementById("nombre1");
-    } elif (name_index === 2) {
-      nombreNodo = document.getElementById("nombre2");
-    } else {
-      nombreNodo = document.getElementById("nombre3");
-    }
+    var comment;
     if (child != null) {
       if (document.getElementById("comment-element") != null) {
         while (child != null) {
@@ -128,8 +122,11 @@ function App() {
                 alt="alternatetext"
                 width="50px"
               />
-              <p class="nombre" id="nombre1"> Sebastian Araya</p>
-              <comment-icon value="1" onClick="Comment(this.value)" />
+              <p class="nombre" id="nombre1">
+                {" "}
+                Sebastian Araya
+              </p>
+              <comment-icon onClick={Comment} />
               <evaluate-icon onClick={Evaluate} />
               <read-icon onClick={Read} />
             </div>
@@ -144,8 +141,11 @@ function App() {
                 alt="alternatetext"
                 width="50px"
               />
-              <p class="nombre" id="nombre2"> Victor Morales</p>
-              <comment-icon value="2" onClick="Comment(this.value)" />
+              <p class="nombre" id="nombre2">
+                {" "}
+                Victor Morales
+              </p>
+              <comment-icon onClick={Comment} />
               <evaluate-icon onClick={Evaluate} />
               <read-icon onClick={Read} />
             </div>
@@ -160,8 +160,11 @@ function App() {
                 alt="alternatetext"
                 width="50px"
               />
-              <p class="nombre" id="nombre3"> Andres Wulff</p>
-              <comment-icon value="3" onClick="Comment(this.value)" />
+              <p class="nombre" id="nombre3">
+                {" "}
+                Andres Wulff
+              </p>
+              <comment-icon onClick={Comment} />
               <evaluate-icon onClick={Evaluate} />
               <read-icon onClick={Read} />
             </div>
@@ -177,3 +180,4 @@ function App() {
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(<App />, rootElement);
+
