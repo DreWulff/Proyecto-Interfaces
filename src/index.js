@@ -7,10 +7,18 @@ import "./templates.js";
 function App() {
   let textInput = React.createRef();
 
-  function Comment() {
+  function Comment(name_index) {
     var dyn = document.getElementById("right-section");
     var child = dyn.lastElementChild;
     var commsec = document.createElement("comment-section");
+    var nombreNodo;
+    if (name_index === 1) {
+      nombreNodo = document.getElementById("nombre1");
+    } elif (name_index === 2) {
+      nombreNodo = document.getElementById("nombre2");
+    } else {
+      nombreNodo = document.getElementById("nombre3");
+    }
     if (child != null) {
       if (document.getElementById("comment-element") != null) {
         while (child != null) {
@@ -23,14 +31,12 @@ function App() {
           child = dyn.lastElementChild;
         }
         dyn.appendChild(commsec);
-        var nombreNodo = document.getElementById("nombre1");
-        var comment = document.getElementById("barra");
+        comment = document.getElementById("barra");
         comment.innerHTML = nombreNodo.innerHTML + " &gt Comentario";
       }
     } else {
       dyn.appendChild(commsec);
-      var nombreNodo = document.getElementById("nombre1");
-      var comment = document.getElementById("barra");
+      comment = document.getElementById("barra");
       comment.innerHTML = nombreNodo.innerHTML + " &gt Comentario";
     }
   }
@@ -122,10 +128,8 @@ function App() {
                 alt="alternatetext"
                 width="50px"
               />
-              <p class="nombre" id="nombre1">
-                Sebastian Araya
-              </p>
-              <comment-icon onClick={Comment} />
+              <p class="nombre" id="nombre1"> Sebastian Araya</p>
+              <comment-icon value="1" onClick="Comment(this.value)" />
               <evaluate-icon onClick={Evaluate} />
               <read-icon onClick={Read} />
             </div>
@@ -140,10 +144,10 @@ function App() {
                 alt="alternatetext"
                 width="50px"
               />
-              <p class="nombre"> Victor Morales</p>
-              <comment-icon />
-              <evaluate-icon />
-              <read-icon />
+              <p class="nombre" id="nombre2"> Victor Morales</p>
+              <comment-icon value="2" onClick="Comment(this.value)" />
+              <evaluate-icon onClick={Evaluate} />
+              <read-icon onClick={Read} />
             </div>
           </div>
           <div display="flex">
@@ -156,10 +160,10 @@ function App() {
                 alt="alternatetext"
                 width="50px"
               />
-              <p class="nombre"> Andres Wulff</p>
-              <comment-icon />
-              <evaluate-icon />
-              <read-icon />
+              <p class="nombre" id="nombre3"> Andres Wulff</p>
+              <comment-icon value="3" onClick="Comment(this.value)" />
+              <evaluate-icon onClick={Evaluate} />
+              <read-icon onClick={Read} />
             </div>
           </div>
         </div>
