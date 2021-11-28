@@ -26,6 +26,7 @@ function App() {
         }
         commsec = document.createElement("comment-section");
         dyn.appendChild(commsec);
+        nombreNodo = document.getElementById("nombre1");
         comment = document.getElementById("barra");
         comment.innerHTML = nombreNodo.innerHTML + " &gt Comentario";
         document
@@ -38,6 +39,7 @@ function App() {
     } else {
       commsec = document.createElement("comment-section");
       dyn.appendChild(commsec);
+      nombreNodo = document.getElementById("nombre1");
       comment = document.getElementById("barra");
       comment.innerHTML = nombreNodo.innerHTML + " &gt Comentario";
       document
