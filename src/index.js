@@ -4,7 +4,6 @@ import "wired-elements";
 import "./styles.css";
 import "./templates.js";
 
-/* eslint-disable no-unused-vars */
 function App() {
   let textInput = React.createRef();
 
