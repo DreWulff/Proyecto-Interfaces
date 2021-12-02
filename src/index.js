@@ -103,8 +103,9 @@ function App() {
   }
 
   function Confirmation() {
-    alert("Comentario enviado");
-    CleanBox();
+    if(window.confirm("¿Desea enviar comentario?")){
+      CleanBox();  
+    }
   }
 
   function CancelComment() {
