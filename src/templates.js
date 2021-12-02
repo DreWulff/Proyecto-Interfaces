@@ -64,7 +64,7 @@ class CommSect extends HTMLElement {
           id="title1"
           placeholder="Título de comentario..."
           ref={textInput}
-          style="float: left; margin-left: 20px;"
+          style="float: left; margin-left: 13px;"
         />
         <textarea
           id="block1"
