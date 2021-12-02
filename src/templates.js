@@ -72,10 +72,10 @@ class CommSect extends HTMLElement {
           required
         ></textarea>
         <hr />
-        <button elevation="2" onClick={Confirmation}>
+        <button elevation="2" id="save-button">
           Guardar
         </button>
-        <button elevation="2" onClick={CancelComment}>
+        <button elevation="2" id="save-button">
           Cancelar
         </button>
       </div>
