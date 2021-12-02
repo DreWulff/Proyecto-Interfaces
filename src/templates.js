@@ -75,7 +75,7 @@ class CommSect extends HTMLElement {
         <button elevation="2" id="save-button">
           Guardar
         </button>
-        <button elevation="2" id="save-button">
+        <button elevation="2" id="cancel-button">
           Cancelar
         </button>
       </div>
