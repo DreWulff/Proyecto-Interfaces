@@ -105,9 +105,15 @@ class ReadSect extends HTMLElement {
   //}
 
   connectedCallback() {
-    this.innerHTML = `
+    this.innerHTML = `s
     <div id="read-element">
-      Nothing to see here. Move along.
+      <Document
+      file="somefile.pdf"
+      onLoadSuccess={onDocumentLoadSuccess}
+      >
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p>Page {pageNumber} of {numPages}</p>
     </div>
     `;
   }
