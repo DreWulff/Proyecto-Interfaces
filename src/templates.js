@@ -105,7 +105,7 @@ class ReadSect extends HTMLElement {
   //}
 
   connectedCallback() {
-    this.innerHTML = `s
+    this.innerHTML = `
     <div id="read-element">
       <Document
       file="./pdfs/evapdf.pdf"
