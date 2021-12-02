@@ -108,7 +108,7 @@ class ReadSect extends HTMLElement {
     this.innerHTML = `s
     <div id="read-element">
       <Document
-      file="somefile.pdf"
+      file="./pdfs/evapdf.pdf"
       onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} />
