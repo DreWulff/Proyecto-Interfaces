@@ -4,9 +4,10 @@ import "wired-elements";
 import "./styles.css";
 import "./templates/comment.js";
 import "./templates/evaluate.js";
-import "./templates/single-page.js";
 import "./templates/read.js";
 import "./templates/icons.js";
+import samplePDF from "./pdfs/evapdf.pdf";
+import SinglePagePDFViewer from "./templates/single-page.js";
 
 
 function App() {
@@ -81,7 +82,8 @@ function App() {
   function Read() {
     var dyn = document.getElementById("right-section");
     var child = dyn.lastElementChild;
-    var readsec = document.createElement("read-section");
+    var readsec;
+    var pdf_reader;
     if (child != null) {
       if (document.getElementById("read-element") != null) {
         while (child != null) {
@@ -93,10 +95,49 @@ function App() {
           dyn.removeChild(child);
           child = dyn.lastElementChild;
         }
+        readsec = document.createElement("read-section");
+        pdf_reader = document.createElement("SinglePagePDFViewer");
+        pdf_reader.pdf = {samplePDF};
+        readsec.appendChild(pdf_reader);
         dyn.appendChild(readsec);
+        
       }
     } else {
+      readsec = document.createElement("read-section");
+      pdf_reader = document.createElement("SinglePagePDFViewer");
+      pdf_reader.pdf = {samplePDF};
+      readsec.appendChild(pdf_reader);
       dyn.appendChild(readsec);
+    }
+  }
+
+  function ReadList() {
+    var dyn = document.getElementById("right-section");
+    var child = dyn.lastElementChild;
+    var readlist;
+    if (child != null) {
+      if (document.getElementById("read-list") != null) {
+        while (child != null) {
+          dyn.removeChild(child);
+          child = dyn.lastElementChild;
+        }
+      } else {
+        while (child != null) {
+          dyn.removeChild(child);
+          child = dyn.lastElementChild;
+        }
+        readlist = document.createElement("read-list");
+        dyn.appendChild(readlist);
+        document
+          .getElementById("pdf1")
+          .addEventListener("click", Read, false);
+      }
+    } else {
+      readlist = document.createElement("read-list");
+      dyn.appendChild(readlist);
+      document
+        .getElementById("pdf1")
+        .addEventListener("click", Read, false);
     }
   }
 
@@ -150,7 +191,7 @@ function App() {
               </p>
               <comment-icon onClick={Comment} />
               <evaluate-icon onClick={Evaluate} />
-              <read-icon onClick={Read} />
+              <read-icon onClick={ReadList} />
             </div>
           </div>
           <div display="flex">
@@ -169,7 +210,7 @@ function App() {
               </p>
               <comment-icon />
               <evaluate-icon onClick={Evaluate} />
-              <read-icon onClick={Read} />
+              <read-icon onClick={ReadList} />
             </div>
           </div>
           <div display="flex">
@@ -188,12 +229,11 @@ function App() {
               </p>
               <comment-icon />
               <evaluate-icon onClick={Evaluate} />
-              <read-icon onClick={Read} />
+              <read-icon onClick={ReadList} />
             </div>
           </div>
-          <p display="none" onClick={Confirmation} />
         </div>
-
+        <SinglePagePDFViewer pdf={samplePDF} />
         <div class="float-child-right" id="right-section" />
       </div>
     </main>
