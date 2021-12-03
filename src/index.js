@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "wired-elements";
 import "./styles.css";
-import "./templates.js";
-
-import { Document, Page } from 'react-pdf';
+import "./templates/comment.js";
+import "./templates/evaluate.js";
+import "./templates/single-page.js";
+import "./templates/read.js";
+import "./templates/icons.js";
 
 
 function App() {
@@ -115,13 +117,6 @@ function App() {
     if (window.confirm("¿Desea cancelar comentario?")) {
       CleanBox();
     }
-  }
-
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
   }
 
   return (
