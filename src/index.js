@@ -61,8 +61,9 @@ function App() {
     var dyn = document.getElementById("right-section");
     var child = dyn.lastElementChild;
     var evalsec = document.createElement("evaluate-section");
+    var nombreNodo;
     if (child != null) {
-      if (document.getElementById("evaluate-element") != null) {
+      if (document.getElementById("eval-element") != null) {
         while (child != null) {
           dyn.removeChild(child);
           child = dyn.lastElementChild;
@@ -73,9 +74,32 @@ function App() {
           child = dyn.lastElementChild;
         }
         dyn.appendChild(evalsec);
+        nombreNodo = document.getElementById("nombre1");
+        var line = document.getElementById("barra");
+        var nam = document.getElementById("alumno_name");
+        line.innerHTML = nombreNodo.innerHTML + " &gt Evaluación";
+        nam.innerHTML = nombreNodo.innerHTML;
+        
+        document
+          .getElementById("save-button")
+          .addEventListener("click", Confi_Test, false);
+        document
+          .getElementById("cancel-button")
+          .addEventListener("click", Cancel_Test, false);
       }
     } else {
       dyn.appendChild(evalsec);
+      nombreNodo = document.getElementById("nombre1");
+      var line = document.getElementById("barra");
+      line.innerHTML = nombreNodo.innerHTML + " &gt Evaluación";
+      var nam = document.getElementById("alumno_name");
+      nam.innerHTML = nombreNodo.innerHTML;
+      document
+          .getElementById("save-button")
+          .addEventListener("click", Confi_Test, false);
+        document
+          .getElementById("cancel-button")
+          .addEventListener("click", Cancel_Test, false);
     }
   }
 
@@ -157,6 +181,26 @@ function App() {
   function CancelComment() {
     if (window.confirm("¿Desea cancelar comentario?")) {
       CleanBox();
+    }
+  }
+
+  function Confi_Test(){
+    if(window.confirm("¿Desea enviar el formulario?")){
+      var bx1 = document.getElementsByClassName("R_B");
+      for (let index = 0; index < bx1.length; index++) {
+        bx1[index].checked = false;
+        
+      }
+    }
+  }
+
+  function Cancel_Test(){
+    if(window.confirm("¿Desea cancelar el formulario?")){
+      var bx1 = document.getElementsByClassName("R_B");
+      for (let index = 0; index < bx1.length; index++) {
+        bx1[index].checked = false;
+        
+      }
     }
   }
 
