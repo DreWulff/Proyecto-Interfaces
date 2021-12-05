@@ -22,6 +22,11 @@ class ReadSect extends HTMLElement {
             <p id="barra">&gt; Comentario</p>
             <hr />
         </div>
+        <img
+            src="https://cdn.discordapp.com/attachments/883139230975545375/917126580873089084/evapdf-1.png"
+            alt="pdf"
+            width="90%"
+          />
       </div>
       `;
     }

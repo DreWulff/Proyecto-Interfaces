@@ -120,17 +120,10 @@ function App() {
           child = dyn.lastElementChild;
         }
         readsec = document.createElement("read-section");
-        pdf_reader = document.createElement("SinglePagePDFViewer");
-        pdf_reader.pdf = {samplePDF};
-        readsec.appendChild(pdf_reader);
         dyn.appendChild(readsec);
-        
       }
     } else {
       readsec = document.createElement("read-section");
-      pdf_reader = document.createElement("SinglePagePDFViewer");
-      pdf_reader.pdf = {samplePDF};
-      readsec.appendChild(pdf_reader);
       dyn.appendChild(readsec);
     }
   }
@@ -218,7 +211,7 @@ function App() {
         </div>
       </div>
       <div class="float-container">
-        <div class="float-child-left">
+        <div class="float-child">
           <div display="flex">
             <div class="inline-block-child" id="Estudiante1">
               <img
@@ -277,8 +270,7 @@ function App() {
             </div>
           </div>
         </div>
-        <SinglePagePDFViewer pdf={samplePDF} />
-        <div class="float-child-right" id="right-section" />
+        <div class="float-child" id="right-section" />
       </div>
     </main>
   );
