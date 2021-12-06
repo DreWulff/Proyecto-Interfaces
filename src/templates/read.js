@@ -7,7 +7,7 @@ class ReadList extends HTMLElement {
           <hr />
         </div>
         <p class="nombre" id="nombre1">
-        <a href="javascript:void(null);" id="pdf1"> Test PDF </a>
+        <a href="javascript:void(null);" id="pdf1"> Reporte 05/12/2021 </a>
         </p>
       </div>
       `;
