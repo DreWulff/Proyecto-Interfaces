@@ -65,7 +65,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -138,7 +138,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -217,7 +217,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -293,7 +293,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -367,7 +367,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -441,7 +441,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -510,7 +510,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -581,7 +581,7 @@ class EvalSect extends HTMLElement {
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
