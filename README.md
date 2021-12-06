@@ -9,3 +9,6 @@ Para instalar las dependencias necesarias se deben ejecutar los siguientes coman
 Para la ejecucion de la pagina se debe de utilizar el siguiente comando:
 
         npm start
+
+###Nota:
+En Firefox no se puede interactuar correctamente con los elementos de la página.
