@@ -23,49 +23,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B" />
+                          <input type="radio" name="radio1" id="my_radio_button_id1" class = "R_B" />
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio1" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" />
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B" />
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" />
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B" />
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio1" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -96,49 +96,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id1" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio2" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -175,49 +175,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id1" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio3" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -251,49 +251,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id1" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio4" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -325,49 +325,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id1" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio5" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -399,49 +399,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id1" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio6" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -468,49 +468,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id1" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio7" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
@@ -539,49 +539,49 @@ class EvalSect extends HTMLElement {
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id1">1</label>
-                          <input type="radio" name="radio" id="my_radio_button_id1" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id1" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id2">2</label>
-                          <input type="radio" name="radio" id="my_radio_button_id2" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id2" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">3</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">4</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">5</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">6</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B"/>
                           </div>        
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">7</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">8</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                       </th>
                       <th>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">9</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B"/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B"/>
                           </div>
                           <div class="checkboxgroup">
                           <label for="my_radio_button_id3">10</label>
-                          <input type="radio" name="radio" id="my_radio_button_id3" class = "R_B" checked/>
+                          <input type="radio" name="radio8" id="my_radio_button_id3" class = "R_B" checked/>
                           </div>
                       </th>
                       </tr>
