@@ -299,7 +299,7 @@ function App() {
                 class="avatar-int"
                 vertical-align="middle"
                 display="inline-block"
-                src="https://i1.sndcdn.com/artworks-000666620167-6kjqim-t500x500.jpg"
+                src="https://i1.sndcdn.com/avatars-QqemTdIirylDlgqB-ULF6wQ-t500x500.jpg"
                 alt="alternatetext"
                 width="50px"
               />
@@ -337,7 +337,7 @@ function App() {
                 class="avatar-int"
                 vertical-align="middle"
                 display="inline-block"
-                src="https://i1.sndcdn.com/artworks-000666620167-6kjqim-t500x500.jpg"
+                src="https://i1.sndcdn.com/avatars-yrxtsAOrcA92OrqP-zuaz9g-t500x500.jpg"
                 alt="alternatetext"
                 width="50px"
               />
