@@ -110,6 +110,10 @@ wired-textarea {
   margin-right: 40px;
 }
 
+.filtered {
+  filter: grayscale(100%);
+}
+
 .icon {
   float: right;
   margin: 10px;

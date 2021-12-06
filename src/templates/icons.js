@@ -4,7 +4,7 @@ class ReadIcon extends HTMLElement {
         <input
             class="icon"
             type="image"
-            src="https://cdn.discordapp.com/attachments/883139230975545375/913919410492813322/Captura1.PNG"
+            src="https://cdn.discordapp.com/attachments/883139230975545375/917187386037903400/Captura.PNG"
             alt="pog"
         />`;
     }
@@ -16,7 +16,7 @@ class EvalIcon extends HTMLElement {
         <input
             class="icon"
             type="image"
-            src="https://cdn.discordapp.com/attachments/883139230975545375/913918864126005258/Captura.PNG"
+            src="https://cdn.discordapp.com/attachments/883139230975545375/917187386255999016/Captura1.PNG"
             alt="pog"
         />`;
     }
@@ -28,7 +28,7 @@ class CommIcon extends HTMLElement {
         <input
             class="icon"
             type="image"
-            src="https://cdn.discordapp.com/attachments/883139230975545375/913920065106243665/Captura2.PNG"
+            src="https://cdn.discordapp.com/attachments/883139230975545375/917187386465734696/2.PNG"
             alt="pog"
         />`;
     }
